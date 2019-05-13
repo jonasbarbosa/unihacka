@@ -1,0 +1,133 @@
+.headHacka {
+    width: 100%;
+    background-color: transparent;
+    background-image: url(views/img/headHacka.png);
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desafio {
+    width: 100%;
+    background-color: transparent;
+    background-image: url(views/img/challenge.png);
+    height: 380px; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headHacka h2 {
+    width: 1001px;
+    height: 120px;
+    left: 219px;
+    top: 215px;
+/* font-family: SF Pro Display; */
+font-size: 94px;
+line-height: 119px;
+color: white;
+}
+
+
+.headeHacka h3 { 
+  width: 1001px;
+  height: 120px;
+  left: 219px;
+  top: 215px;
+  font-size: 60px;
+  line-height: 119px;
+  color: rgb(255, 255, 255);
+}
+
+
+.desafio h2 {
+    width: 1001px;
+    height: 120px;
+    left: 219px;
+    top: 215px;
+
+/* font-family: SF Pro Display; */
+font-size: 100px;
+line-height: 119px;
+color: white;
+}
+
+}
+.textTheme {
+    font-family: SF Pro Display;
+font-size: 16px;
+line-height: 21px;
+
+color: #000000;
+}
+
+.howTitle {
+    position: absolute;
+width: 290px;
+height: 53px;
+left: 575px;
+top: 664px;
+
+font-family: SF Pro Display;
+font-size: 44px;
+line-height: 53px;/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #241C15;
+
+text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.runOnde { 
+height: 380px;
+  margin-top: 170px;
+  margin-bottom: 170px;
+  background-color:  #241C15;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.runGanha { 
+height: 380px;
+  margin-top: 170px;
+  margin-bottom: 170px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.runOnde h2 {
+    color: white;
+}
+
+.text_event { 
+  text-align: center;
+  color: rgb(96, 96, 96);
+  font-size: 16px;
+}
+
+.textGanha {
+    font-size: 44px;
+line-height: 53px;/* identical to box height */
+display: flex;
+align-items: center;
+height: 380px;
+  margin-top: 170px;
+  margin-bottom: 170px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+color: #FFFFFF;
+}
+
+.stylebtn { 
+ 
+}
