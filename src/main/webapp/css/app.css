@@ -1,8 +1,57 @@
+
+/* GERAL */
+html,body {
+	margin: 0;
+	padding: 0px; 
+	/*font-size: 0px;   */
+  
+}
+
+body {
+	background-color: #2b2b2b;
+	font-family: 'Montserrat', sans-serif;
+}
+/* GERAL */
+
+/* RATES */
+.rates {
+	background-color: white;
+}
+.rates .headline {
+	margin-bottom: 2rem;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.rates-item {
+	height: 250px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: center;	 */
+}
+.rates-item .img {
+	height: 80px;
+}
+.rates-item .rates-headline {
+	font-weight: 300;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding:1rem 0 0 0;
+}
+
+.rates .hack-align-rate {
+	/* margin-left: 12.5% */
+}
+/*Fim Rates*/
+
+
 .headHacka {
     width: 100%;
     background-color: transparent;
     background-image: url(views/img/headHacka.png);
-    height: 380px;
+    height: 500px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -25,24 +74,25 @@
 .headHacka h2 {
     width: 1001px;
     height: 120px;
-    left: 219px;
-    top: 215px;
-/* font-family: SF Pro Display; */
-font-size: 94px;
-line-height: 119px;
-color: white;
+    /* font-family: SF Pro Display; */
+    font-size: 94px;
+    line-height: 119px;
+    color: white;
+    margin-bottom:0px;
 }
 
 
-.headeHacka h3 { 
+.headHacka h3.headHacka-subtitle { 
   width: 1001px;
   height: 120px;
-  left: 219px;
-  top: 215px;
-  font-size: 60px;
+  font-size: 44px;
   line-height: 119px;
-  color: rgb(255, 255, 255);
+  color: white;
+  text-align:center;
+  margin-top:0;
+  padding-top:0;
 }
+
 
 
 .desafio h2 {
@@ -130,4 +180,96 @@ color: #FFFFFF;
 
 .stylebtn { 
  
+}
+/* Icones*/
+.hack-ico {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    width: 80px;
+    height: 80px;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-bottom: 20px;
+   
+    /* background-color: #ccc; */
+    
+}
+.hack-user {
+     background-image: url(../views/img/user-icn-hackaha.svg);
+     background-position: 20px 24px;
+}
+.hack-fuguete{
+    background-image: url(../views/img/fuguete-icno.svg);
+    background-position: 24px 19px;
+    background-size: 39% !important;
+}
+.hack-agenda {
+    background-image: url(../views/img/relo-hackha.svg);
+    background-position: 23px 24px;
+}
+.row-icons {
+    margin-top: 20px;
+        margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+/*Botão Rates*/
+.botao-rates {
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    color: white;
+    background: #0A30CF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    font-size: 18px;
+
+}
+
+.container-icons {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+    padding-top: 65px;
+}
+
+.container-fluid-section-break, .vantagens{
+    height: 600px;
+    background-image: url('../views/img/challenge.png');
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vantagens{
+    background: none !important ;
+    
+}
+
+.vatagens .container h2{
+        color: #333 !important;
+}
+
+.container-spaced{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-fluid-section-break h2, .container-fluid-section-break h3{
+    font-size: 44px;
+    color:white;
+    text-align: center;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);    
+}
+
+.container-fluid-section-break h3{
+    font-size: 100px;
 }
