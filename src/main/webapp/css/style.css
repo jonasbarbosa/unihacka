@@ -1,0 +1,442 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white !important;
+}
+
+.header {
+    height: 600px;
+    background-image: url(/views/img/headHackaLite.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.header .title {
+    color: #FFFFFF;
+    font-size: 100px;
+    margin-bottom: 25px;
+}
+
+.how-work--box {
+    font-size: 18px;
+    color: #606060;
+    line-height: 150%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 10px;
+}
+
+.header .date {
+    font-size: 44px;
+    color: #FFFFFF;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 44px;
+    color: #241C15;
+}
+
+.challenge--header {
+    height: 560px;
+    background-image: url(/views/img/challengeLite.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.challenge--header .legend {
+    font-size: 44px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.challenge--header .title {
+    font-size: 72px;
+    color: #FFFFFF;
+    margin: 0;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.challenge-content .title {
+    font-size: 28px;
+    color: #252525;
+    line-height: 150%;
+}
+
+.challenge-content .desc {
+    font-size: 18px;
+    color: #606060;
+    line-height: 150%;
+}
+
+.local-info span {
+    font-size: 18px;
+    color: #241C15;
+    margin-bottom: 20px;
+    display: block
+}
+
+.local {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.local .local-map {
+    width: 50%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+.local-info {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 70px;
+    width: 50%;
+}
+
+.local-info h3.section-title {
+    text-align: -webkit-left;
+    margin-bottom: 40px;
+}
+
+.btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 200px;
+}
+
+section.how-work {
+    margin-bottom: 80px;
+}
+
+section.how-work h3.section-title {
+    margin-bottom: 70px;
+}
+
+section.local {
+    margin-bottom: 200px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.partner-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.partner-box span {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 38px;
+    text-transform: uppercase;
+    color: #D412A7;
+}
+
+footer.footer {
+    padding: 50px 0;
+    letter-spacing: 0.5em;
+    border-top: 0.5px solid #C4C4C4;
+}
+
+.how-work--btn {
+    text-align: center;
+    margin-top: 95px;
+}
+
+.how-work--btn {
+    text-align: center;
+    margin-top: 95px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+a.bt {
+    height: 60px;
+    background: #DFDFDF;
+    border-radius: 4px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-transform: uppercase;
+    color: #252525;
+    font-size: 18px;
+    padding: 19px 40px;
+    margin: 0 15px;
+    -webkit-transition: .4s all;
+    transition: .4s all;
+}
+
+a.bt-primary {
+    background: #0A30CF;
+    color: #FFF;
+}
+
+a.bt-secondary {
+    background: #FFFFFF;
+    color: #0A30CF;
+}
+
+a.bt:hover {
+    -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
+
+a.bt-primary:hover {
+    -webkit-box-shadow: 0px 2px 10px rgba(10, 48, 207, 0.35);
+            box-shadow: 0px 2px 10px rgba(10, 48, 207, 0.35);
+}
+
+a.bt:hover {
+    text-decoration: none;
+}
+
+section.sign-up--team .section-title {
+    margin-bottom: 58px;
+}
+
+.infos-box {
+    width: 100%;
+    height: 300px;
+    background: #241C15;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+h3.box-title {
+    font-size: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+section.infos {
+    margin-bottom: 118px;
+}
+
+main.challenge-content {
+    margin-bottom: 200px;
+}
+
+section.awards {
+    padding: 70px 0;
+    margin-bottom: 100px;
+    background: #f7f7f7;
+}
+
+.how-work--box .icon {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #C4C4C4;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+}
+
+.local-map iframe {
+    width: 100%;
+}
+
+.local-info p {
+    width: 424px;
+}
+
+section.awards h3.section-title {
+    margin-bottom: 80px;
+}
+
+.awards--box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.awards--box.second {
+    margin-top: 30px;
+}
+
+.awards--box.third {
+    margin-top: 40px;
+}
+
+.awards--box .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 18px 0;
+}
+
+@media (max-width: 990px) {
+    section.local {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+
+    .header .title {
+        font-size: 50px;
+    }
+
+    .header .date {
+        font-size: 30px;
+    }
+
+    .challenge--header .legend {
+        font-size: 30px;
+    }
+
+    .challenge--header .title {
+        font-size: 50px;
+    }
+
+    .how-work--box {
+        margin-bottom: 40px;
+    }
+
+    .awards--box {
+        margin-bottom: 40px;
+        margin-top: 0 !important;
+    }
+
+    h3.box-title {
+        font-size: 30px;
+    }
+
+    .infos-box {
+        padding: 20px;
+    }
+
+    .local-map, .local-info, .local-info p {
+        width: 100% !important;
+    }
+
+    .local-info {
+        padding: 20px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    a.bt {
+        font-size: 16px;
+    }
+
+    .btn-box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .btn-box .bt {
+        margin-bottom: 30px;
+    }
+
+    .partner-box span {
+        margin-bottom: 14px;
+    }
+    
+    .partner-box {
+        margin-bottom: 40px;
+    }
+}
