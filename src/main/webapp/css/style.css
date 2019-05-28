@@ -4,8 +4,8 @@ body {
 }
 
 .header {
-    height: 600px;
-    background-image: url(/views/img/headHackaLite.jpg);
+    height: 700px;
+    background-image: url(/img/banner_hackathon2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -59,7 +59,7 @@ body {
 
 .challenge--header {
     height: 560px;
-    background-image: url(/views/img/challengeLite.jpg);
+    background-image: url(/img/paralax.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -185,7 +185,7 @@ section.local {
     font-size: 12px;
     margin-bottom: 38px;
     text-transform: uppercase;
-    color: #D412A7;
+    color: #091d3c;
 }
 
 footer.footer {
@@ -229,17 +229,18 @@ a.bt {
     padding: 19px 40px;
     margin: 0 15px;
     -webkit-transition: .4s all;
+    -o-transition: .4s all;
     transition: .4s all;
 }
 
 a.bt-primary {
-    background: #0A30CF;
+    background: #4ab048;
     color: #FFF;
 }
 
 a.bt-secondary {
-    background: #FFFFFF;
-    color: #0A30CF;
+    background: #4ab048;
+    color: #ffffff;
 }
 
 a.bt:hover {
@@ -248,8 +249,8 @@ a.bt:hover {
 }
 
 a.bt-primary:hover {
-    -webkit-box-shadow: 0px 2px 10px rgba(10, 48, 207, 0.35);
-            box-shadow: 0px 2px 10px rgba(10, 48, 207, 0.35);
+    -webkit-box-shadow: 0px 2px 10px rgba(74, 176, 72, 0.35);
+    box-shadow: 0px 2px 10px rgba(74, 176, 72, 0.35);
 }
 
 a.bt:hover {
@@ -263,21 +264,21 @@ section.sign-up--team .section-title {
 .infos-box {
     width: 100%;
     height: 300px;
-    background: #241C15;
+    background: #091d3c;
     border-radius: 12px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 h3.box-title {
@@ -364,6 +365,54 @@ section.awards h3.section-title {
     margin: 18px 0;
 }
 
+.awards--box .icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+ul.slick-dots {
+    padding: 0;
+    list-style-type: none;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+ul.slick-dots button {
+    width: 13px;
+    height: 13px;
+    border-radius: 50px;
+    font-size: 0;
+    padding: 0;
+    background: #091d3c;
+    opacity: .4;
+    border: none;
+    margin: 0 7px;
+}
+
+ul.slick-dots .slick-active button {
+    opacity: 10;
+}
+
+@media (max-width: 1024px) {
+    header.header {
+        height: 500px
+    }
+}
+
 @media (max-width: 990px) {
     section.local {
         -webkit-box-orient: vertical;
@@ -438,5 +487,23 @@ section.awards h3.section-title {
     
     .partner-box {
         margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 990px) {
+    header.header {
+        height: 300px;
+    }
+}
+
+@media (max-width: 425px) {
+    header.header {
+        height: 190px;
+    }
+}
+
+@media (max-width: 360px) {
+    header.header {
+        height: 160px;
     }
 }
