@@ -47,6 +47,16 @@
                         <resource>
                             <directory>config</directory>
                             <targetPath>META-INF</targetPath>
+                            <includes>
+                                <include>context.xml</include>
+                            </includes>
+                        </resource>
+                        <resource>
+                            <directory>config</directory>
+                            <targetPath>WEB-INF/classes/META-INF</targetPath>
+                            <includes>
+                                <include>app.config</include>
+                            </includes>
                         </resource>
                     </webResources>
                 </configuration>
