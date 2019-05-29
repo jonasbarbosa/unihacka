@@ -4,20 +4,17 @@ body {
 }
 
 .header {
-    height: 700px;
-    background-image: url(/img/banner_hackathon2.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     margin-bottom: 64px;
 }
@@ -57,6 +54,10 @@ body {
     color: #241C15;
 }
 
+.header img {
+    width: 100%
+}
+
 .challenge--header {
     height: 560px;
     background-image: url(/img/paralax.jpg);
@@ -67,12 +68,12 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 60px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 80px;
     text-align: center;
 }
 
@@ -119,21 +120,6 @@ body {
             flex-direction: row;
 }
 
-.local .local-map {
-    width: 50%;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-}
-
-.local-info {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    padding: 70px;
-    width: 50%;
-}
-
 .local-info h3.section-title {
     text-align: -webkit-left;
     margin-bottom: 40px;
@@ -144,12 +130,12 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 200px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 110px;
 }
 
 section.how-work {
@@ -161,10 +147,10 @@ section.how-work h3.section-title {
 }
 
 section.local {
-    margin-bottom: 200px;
+    margin-bottom: 80px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .partner-box {
@@ -290,34 +276,36 @@ h3.box-title {
 }
 
 section.infos {
-    margin-bottom: 118px;
+    margin-bottom: 80px;
 }
 
-main.challenge-content {
-    margin-bottom: 200px;
-}
+main.challenge-content {margin-bottom: 80px;}
 
 section.awards {
     padding: 70px 0;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     background: #f7f7f7;
 }
 
 .how-work--box .icon {
-    width: 80px;
-    height: 80px;
+    width: 140px;
+    height: 140px;
     border: 2px solid #C4C4C4;
-    border-radius: 50px;
+    border-radius: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-bottom: 30px;
+}
+
+.how-work--box .icon img {
+    width: 60px;
 }
 
 .local-map iframe {
@@ -407,10 +395,8 @@ ul.slick-dots .slick-active button {
     opacity: 10;
 }
 
-@media (max-width: 1024px) {
-    header.header {
-        height: 500px
-    }
+section.local h3.section-title {
+    margin-bottom: 60px;
 }
 
 @media (max-width: 990px) {
@@ -487,23 +473,5 @@ ul.slick-dots .slick-active button {
     
     .partner-box {
         margin-bottom: 40px;
-    }
-}
-
-@media (max-width: 990px) {
-    header.header {
-        height: 300px;
-    }
-}
-
-@media (max-width: 425px) {
-    header.header {
-        height: 190px;
-    }
-}
-
-@media (max-width: 360px) {
-    header.header {
-        height: 160px;
     }
 }
