@@ -5,9 +5,31 @@
                 <h1 class="title">Hackathon Universitário</h1>
                 <p class="date">01 e 02 de Junho de 2019</p>
             </div> -->
+            
+            <div class="header-nav">
+                <div class="container" ng-controller="ScrollController">
+                    <nav class="menu-mobile" role="navigation">
+                      <div id="menuToggle">
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="menu">
+                          <a ng-repeat="item in links" href="" ng-click="goToSection(item.href)">{{ item.name }}</a>
+                        </ul>
+                      </div>
+                    </nav>
+                    
+                    <nav class="navigation">
+                        <a ng-repeat="item in links" href="" ng-click="goToSection(item.href)">{{ item.name }}</a>
+                    </nav>
+                    
+                    <a class="bt bt-primary" href="" ng-click="goToSection('signup-team')">Inscreva-se!</a>
+                </div>
+            </div>
         </header>
 
-        <section class="how-work">
+        <section class="how-work" id="how-work">
             <div class="container">
                 <h3 class="section-title">Como funciona</h3>
 
@@ -44,7 +66,7 @@
             </div>
         </section>
 
-        <section class="challenge">
+        <section class="challenge" id="challenge">
             <header class="challenge--header">
                 <div class="container">
                     <p class="legend">O Desafio:</p>
@@ -67,7 +89,7 @@
             </main>
         </section>
 
-        <section class="awards">
+        <section class="awards" id="awards">
             <div class="container">
                 <h3 class="section-title">Prêmios</h3>
                 <div class="awards-slide">
@@ -96,7 +118,7 @@
             </div>
         </section>
 
-        <section class="infos">
+        <section class="infos" id="infos">
             <div class="container">
                 <div class="infos-box">
                     <h3 class="box-title">Saiba tudo o que vai rolar no nosso evento</h3>
@@ -105,21 +127,21 @@
             </div>
         </section>
 
-        <section class="local">
+        <section class="local" id="local">
             <div class="container">
                 <div class="row">
                     <h3 class="section-title">Local</h3>
                     
                     <div class="col-lg-12">
                         <div class="local-map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.377551154365!2d-38.49233648456445!3d-13.011612464141098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160353d94b4ff7%3A0x10dffb5ee9bede48!2sUNIFACS+-+PA7!5e0!3m2!1spt-BR!2sbr!4v1559144160702!5m2!1spt-BR!2sbr" width="600" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2311.443262147496!2d-38.48775599907769!3d-13.012176590904627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160353b809e8cf%3A0x2ef98829ef676044!2sUNIFACS+-+Campus+Rio+Vermelho+PA6!5e0!3m2!1spt-BR!2sbr!4v1559228156116!5m2!1spt-BR!2sbr" width="600" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="sign-up--team">
+        <section class="sign-up--team" id="signup-team">
             <div class="container">
                 <div class="row">
                     <h3 class="section-title">Como inscrevo meu time?</h3>
