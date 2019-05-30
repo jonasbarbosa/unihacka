@@ -20,5 +20,7 @@ app.controller('ScrollController', function($scope, $location, $anchorScroll) {
 
     $scope.goToSection = (id) => {
         $("html, body").animate({ scrollTop: $(`#${id}`).offset().top - 100 }, 1000);
+
+        $('.check-menu').prop('checked', false)
     };
 });
