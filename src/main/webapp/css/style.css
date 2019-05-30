@@ -36,6 +36,11 @@ nav.navigation a {
     color: #091d3c;
 }
 
+nav.navigation a:hover, nav.navigation a:focus {
+    color: #4ab048;
+    text-decoration: none;
+}
+
 .menu-mobile {
     display: none;
 }
@@ -543,6 +548,7 @@ section.local h3.section-title {
     transition: color 0.3s ease;
     border-bottom: 1px solid;
     padding: 0 0 20px;
+    text-align: c;
 }
 
 /*
