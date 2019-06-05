@@ -1,10 +1,6 @@
  <div id="page">
         <header class="header">
             <img src="./img/banner_hackathon2.jpg" />
-            <!-- <div class="container">
-                <h1 class="title">Hackathon Universitário</h1>
-                <p class="date">01 e 02 de Junho de 2019</p>
-            </div> -->
             
             <div class="header-nav">
                 <div class="container" ng-controller="ScrollController">
@@ -147,10 +143,25 @@
                     <h3 class="section-title">Como inscrevo meu time?</h3>
 
                     <div class="btn-box">
-                        <a class="bt" href="https://drive.google.com/file/d/1QnPqwJ47DCjaHiJe1sDoCqPX0emMbufe/view">Regulamento</a>
-                        <a class="bt bt-primary" href="https://www.sympla.com.br/hackathon-universitario---desafio-ambiental__535766">Inscreva-se!</a>
+                        <a class="bt" href="https://drive.google.com/file/d/1QnPqwJ47DCjaHiJe1sDoCqPX0emMbufe/view" target="_blank">Regulamento</a>
+                        <a class="bt bt-primary" href="https://www.sympla.com.br/hackathon-universitario---desafio-ambiental__535766" target="_blank">Inscreva-se!</a>
                     </div>
                 </div>
+            </div>
+        </section>
+        
+        <section class="photos-unsta">
+            <h3 class="section-title">Acompanhe o #unihacka</h3>
+            
+            <div id="instafeed-gallery-feed">
+                <ul class="list-intagram">
+                    <li ng-repeat="item in photos | limitTo:14">
+                        <a ng-href="https://www.instagram.com/p/{{item.node.shortcode}}" target="_blank">
+                            <span class="caption-image">{{item.node.edge_media_to_caption.edges[0].node.text | limitTo:160}}...</span>
+                            <img ng-src={{item.node.thumbnail_resources[1].src}} />
+                        </a>
+                    </li>
+                </ul>
             </div>
         </section>
 
