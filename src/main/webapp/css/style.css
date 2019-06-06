@@ -603,6 +603,14 @@ ul.list-intagram li a:hover span {
     opacity: 10;
 }
 
+ul.list-intagram li:nth-child(15) {
+    display: none;
+}
+
+ul.list-intagram {
+    padding: 0 16px;
+}
+
 @media (max-width: 990px) {
     section.local {
         -webkit-box-orient: vertical;
@@ -687,6 +695,10 @@ ul.list-intagram li a:hover span {
 
     .caption-image {
         display: none;
+    }
+
+    ul.list-intagram li:last-child {
+        display: inherit;
     }
 }
 
